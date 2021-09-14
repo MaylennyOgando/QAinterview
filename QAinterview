@@ -1,0 +1,19 @@
+require 'selenium=webdriver'
+
+driver = selenium::webdriver.for:chrome
+
+driver.get "http://google.com"
+
+
+gem install launchy
+
+require 'launchy'
+
+launchy.open ("http://qainterview.pythonanywhere.com")
+
+
+
+
+
+
+
